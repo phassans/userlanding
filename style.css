@@ -6,10 +6,10 @@
 	Design and Developed by: Hastech
 
 ==============================================
-    
+
     CSS INDEX
     ===================
-	
+
     1. IMPORT GOOGLE FONT
 	2. HEADER AREA
 	3. SLIDER AREA
@@ -31,7 +31,7 @@
 	19. VIDEO BACKGROUND AREA
 	20. ScreenShot Area
 	21. ScrollUp
-	
+
 ===========================================================*/
 
 /* ============= 1. IMPORT GOOGLE FONT ============= */
@@ -56,8 +56,8 @@ header {
     transition: all 0.5s ease 0s;
 }
 .navbar.navbar-fixed-top {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #fd763c 0%, #ffb270 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #fd763c 0%, #ffb270 100%) repeat scroll 0 0;
     box-shadow: 0 0 20px -10px #000;
     padding: 0;
 }
@@ -94,8 +94,8 @@ header {
   transition:.3s;
 }
 .navbar-nav li a.download-btn:hover {
-  background: #f75160 none repeat scroll 0 0;
-  border-color: #f75160;
+  background: #fd763c none repeat scroll 0 0;
+  border-color: #fd763c;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
@@ -146,7 +146,7 @@ header {
   z-index: 3;
 }
 .hero-btn {
-  background: #ff5f6d none repeat scroll 0 0;
+  background: #fd763c none repeat scroll 0 0;
   border-radius: 4px;
   color: #fff;
   display: inline-block;
@@ -161,7 +161,7 @@ header {
   box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.1);
 }
 .hero-btn:hover, .about-content > .hero-btn:hover {
-  background-color: #f75160;
+  background-color: #fd763c;
   color: #fff;
   text-decoration: none;
 }
@@ -244,7 +244,7 @@ header {
   margin: 0 0 25px;
 }
 .about-content > .hero-btn {
-  background: #ff5f6d none repeat scroll 0 0;
+  background: #fd763c none repeat scroll 0 0;
   border-radius: 4px;
   box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
   -webkit-box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
@@ -285,7 +285,7 @@ header {
   padding: 40px 0 35px;
   transition: all 0.3s ease 0s;
 }
-.awesome-feature:hover{background: #ff5f6d none repeat scroll 0 0;}
+.awesome-feature:hover{background: #fd763c none repeat scroll 0 0;}
 .awesome-feature-icon span {
     display: block;
     height: 60px;
@@ -295,8 +295,8 @@ header {
 	margin:0 auto;
 }
 .awesome-feature-icon span:after {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to top, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, #fd763c 0%, #ffb270 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to top, #fd763c 0%, #ffb270 100%) repeat scroll 0 0;
     border-radius: 60px;
     content: "";
     height: 100%;
@@ -324,14 +324,14 @@ header {
     z-index: 1;
 }
 .awesome-feature:hover .awesome-feature-icon i {
-  background-color: #ff5f6d;
+  background-color: #fd763c;
   box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   -webkit-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   -moz-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   color: #fff;
 }
 .awesome-feature:hover .awesome-feature-icon span::after {
-  background: #ff5f6d none repeat scroll 0 0;
+  background: #fd763c none repeat scroll 0 0;
 }
 .awesome-feature-details {
   margin-top: 20px;
@@ -374,7 +374,7 @@ header {
   text-align: center;
 }
 .how-work-tab ul li.active a {
-  background:#ff5f6d;
+  background:#fd763c;
   color: #fff;
 }
 .how-work-tab .tab-content p {
@@ -412,10 +412,10 @@ header {
   text-transform: capitalize;
   transition: all 0.3s ease 0s;
 }
-.download-option-btn ul li a i{color:#ff5f6d;margin-right:5px;transition:.3s;}
+.download-option-btn ul li a i{color:#fd763c;margin-right:5px;transition:.3s;}
 .download-option-btn ul li a:hover i,.download-option-btn ul li a.active:hover i{color:#fff;}
-.download-option-btn ul li a:hover,.download-option-btn ul li a.active:hover{background:#ff5f6d;color:#fff;}
-.download-option-btn ul li a.active{background:#ff5f6d;color:#fff;}
+.download-option-btn ul li a:hover,.download-option-btn ul li a.active:hover{background:#fd763c;color:#fff;}
+.download-option-btn ul li a.active{background:#fd763c;color:#fff;}
 .download-option-btn ul li a.active i{color:#fff;}
 
 /* ============= 11. PRICING AREA ============= */
@@ -460,10 +460,10 @@ header {
 .price-decs {
   padding-bottom: 40px;
 }
-.pricing-single:hover,.pricing-single.active{background:#ff5f6d;color:#fff;}
+.pricing-single:hover,.pricing-single.active{background:#fd763c;color:#fff;}
 .pricing-single:hover .pricing-price > span,.pricing-single:hover .price-decs ul li,.pricing-single:hover .price-titel h4{color:#fff;}
 .pricing-single.active .pricing-price > span,.pricing-single.active .price-decs ul li,.pricing-single.active .price-titel h4{color:#fff;}
-.pricing-single:hover .ordr-btn > a,.pricing-single.active .ordr-btn > a{background:#ff5f6d;color:#fff;display:block;}
+.pricing-single:hover .ordr-btn > a,.pricing-single.active .ordr-btn > a{background:#fd763c;color:#fff;display:block;}
 
 /* ============= 12. TESTIMONIAL AREA ============= */
 .testimonial-desc p {
@@ -505,7 +505,7 @@ header {
   border-radius:10px;
 }
 .team-overlay {
-  background: #ff5f6d none repeat scroll 0 0;
+  background: #fd763c none repeat scroll 0 0;
   box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
@@ -530,7 +530,7 @@ header {
 /* ============= 14. SUBCRIBE FORM AREA ============= */
 .subcribe-form input {
   background: transparent none repeat scroll 0 0;
-  border: 1px solid #ff5f6d;
+  border: 1px solid #fd763c;
   border-radius: 5px;
   box-shadow: none;
   color: #444444;
@@ -542,7 +542,7 @@ header {
   width: 30%;
 }
 .subcribe-form button {
-  background: #ff5f6d none repeat scroll 0 0;
+  background: #fd763c none repeat scroll 0 0;
   border: medium none;
   border-radius: 5px;
   color: #fff;
@@ -594,7 +594,7 @@ header {
 .description textarea { height: 100px }
 .form-group  button { border: none }
 .btn-contact-bg {
-  background: #ff5f6d none repeat scroll 0 0;
+  background: #fd763c none repeat scroll 0 0;
   border-radius: 5px;
   box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
   -webkit-box-shadow: 0 0 20px 0px rgba(255, 95, 109, 0.4);
@@ -659,7 +659,7 @@ margin:0;
   width: 45px;
   margin: 0 12px;
 }
-.contact-social ul li a:hover{color:#fff;background:#ff5f6d;}
+.contact-social ul li a:hover{color:#fff;background:#fd763c;}
 .copyright-text p {
   color: #fff;
   font-size: 13px;
@@ -803,4 +803,3 @@ margin:0;
   z-index: 200;
 }
 #scrollUp:hover{background:#3e3e3e;}
-
